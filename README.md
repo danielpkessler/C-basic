@@ -1,4 +1,5 @@
 # C-basic
+
 BMI Calulator and Categorizer PROGRAM
 
 C program that calculates and categorizes individuals based on their Body Mass Index (BMI). 
@@ -9,6 +10,7 @@ The program keeps a count of the number of individuals in each category.
 The loop continues until the user decides to stop entering data. 
 Finally, the program displays the total number of people processed and the count of people in each BMI category.
 
+
 Geometric Shape Property Calculator PROGRAM
 
 C program for processing geometric shapes, including circles, rectangles, and squares. 
@@ -17,6 +19,7 @@ The program keeps track of the largest perimeter for circles, the largest surfac
 It also calculates the average perimeter for rectangles if any were processed. 
 The program continues to process shapes until the user decides to stop. 
 Finally, it displays statistics on the shapes processed, including the number of each type of shape and their respective properties.
+
 
 Employee Data Analysis and Sorting PROGRAM
 
@@ -29,6 +32,7 @@ The program then performs various tasks:
 4.  It sorts the data in the arrays based on employee age.
 5.  Finally, it prints the characteristics of the employees, including their positions, ages, and coffee consumption, after the sorting process.
 
+
 Sum and Divisor Calculations with Loops PROGRAM
 
 C program to perform several mathematical calculations using different types of loops. 
@@ -37,3 +41,11 @@ Then, it computes and prints the sum of a series of fractions using a do...while
 Lastly, it determines and displays the number of divisors of a specific number, in this case, 720, using a for loop. 
 Each calculation is followed by a corresponding output message that showcases the results. 
 This program provides examples of how to use different types of loops for distinct mathematical tasks.
+
+
+Employee Data Management PROGRAM
+
+This C program offers a comprehensive solution to organize, analyze, and display information related to employees. 
+The program demonstrates a series of functions and operations on arrays to manipulate and interpret employee data. 
+The functions include counting the number of employees in different roles (programmers, analysts, operators), determining the number of employees over 30 years old and those who consume 3 or more cups of coffee per day, finding the maximum coffee consumption and the oldest employee, and sorting the data based on age. 
+This practical application provides a useful tool for managing employee information efficiently in C.
