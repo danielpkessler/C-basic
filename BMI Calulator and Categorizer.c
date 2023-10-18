@@ -1,22 +1,3 @@
-/* Fichier : TP 1 - A
- 
- Auteur : Daniel Kessler
- Cours IFT 1810 section A
- But du programme :
- 
-Saisir les informations d'un patient sedentaire : poids en kg, taille metres et son indice de masse corporelle (imc) selon la formule suivante : imc = poids / (taille x taille).
- 
- On veut egalement categoriser et compter les individus traites.
- Le programme traitera les donnees jusqu-au mooment ou l'usager decide d'arreter.
- On compte et affiche:
- - le nombre total de peronnes traitees.
- - le nombre de personnes qui ont un poids maigre, poids normal, poids embonpoint et poids obese.
- 
-    Dernière mise a jour 26 09 2022
-*/
-
-//  PARTIE A
-
 #include <stdio.h>
 
 int main()
@@ -98,52 +79,3 @@ int main()
 return 0;
 
 }
-
-/*
- 
-Execution :
-
-Tapez la taille en metre(s) :
-1.98
-Tapez la taille en kilogramme(s) :
-51
-1.98 metre
-51.0 kilogramme(s)
-L'indice de masse corporelle (imc) est 13.0 :
-Maigreur, risque eleve accru
-Voulez-vous continuer? (o ou n) o
-Tapez la taille en metre(s) :
-1.63
-Tapez la taille en kilogramme(s) :
-69.4
-1.63 metre
-69.4 kilogramme(s)
-L'indice de masse corporelle (imc) est 26.1 :
-Embonpoint, risque eleve
-Voulez-vous continuer? (o ou n) o
-Tapez la taille en metre(s) :
-1.65
-Tapez la taille en kilogramme(s) :
-60
-1.65 metre
-60.0 kilogramme(s)
-L'indice de masse corporelle (imc) est 22.0 :
-Poids normal, risque faible
-Voulez-vous continuer? (o ou n) o
-Tapez la taille en metre(s) :
-1.72
-Tapez la taille en kilogramme(s) :
-100
-1.72 metre
-100.0 kilogramme(s)
-L'indice de masse corporelle (imc) est 33.8 :
-Obesite, risque tres eleve
-Voulez-vous continuer? (o ou n) n
-Au total, on traite 4 personne(s)
-Il y a 1 personne(s) ayant un imc maigre
-Il y a 1 personne(s) ayant un imc normal
-Il y a 1 personne(s) ayant un imc emboinpoint
-Il y a 1 personne(s) ayant un imc obese
-Program ended with exit code: 0
-
-*/
