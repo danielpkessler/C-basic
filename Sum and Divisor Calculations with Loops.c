@@ -1,19 +1,3 @@
-/* Fichier : TP 2 - A
- 
- Auteur : Daniel Kessler
- Cours IFT 1810 section A
- 
- But du programme :
- Calculer des sommes avec les boucles : while, do ... while & for
- Suite a ceci, on veut egalement les afficher.
- 
- 
-    Dernière mise a jour 20 10 2022
- 
-*/
-
-//  PARTIE A
-
 #include <stdio.h>
 
 int main()
@@ -76,17 +60,3 @@ int main()
     return 0;
     
 }
-
-/*
-
- Execution :
- 
- Avec la boucle while, la premiere somme donne : 1020
-
- Avec la boucle do ... while, la deuxieme somme donne : 3.907
-
- Avec la boucle for, le nombre 720 a 30 diviseurs.
-
- Program ended with exit code: 0
- 
- */
