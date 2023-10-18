@@ -1,6 +1,4 @@
 # C-basic
-Code for basic C language functionality.
-
 BMI Calulator and Categorizer PROGRAM
 
 C program that calculates and categorizes individuals based on their Body Mass Index (BMI). 
