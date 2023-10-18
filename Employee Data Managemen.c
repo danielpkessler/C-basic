@@ -1,27 +1,3 @@
-/*  Fichier TP 3 - A
-
- Auteur : Daniel Kessler
- Cours IFT 1810 - section A
- But du programme :
-
- Saisir les declarations et initialisations de 3 tableaux :
-  
- 1 - poste : Correspond au poste des individus traites.
-  poste prendra les suivantes valeurs possibles :
-     A = Analyste ; P = Programmeur ; O = Operateur
-  
- 2 - nbCafe : Correspond au nombre de cafes consommes par les individus traites.
-  nbCafe prendra les valeurs des entiers suivants : 3, 1, 5, 0, 3, 4, 0, 3.
-
- 3 - age : Correspond a l'age des individus traites.
-  age prendra les valeurs eniters suivants : 25, 19, 27, 30, 65, 24, 56, 29.
-  
-  Le poste, l'age et la consommation de cafe correspondent aux caracteristiques de chaque individu respectivement.
- 
- Derniere mise a jour : 08 11 2022
- 
- */
- 
 #include <stdio.h>
 #include <limits.h>
 
@@ -160,51 +136,3 @@ int main ()
     }
     
 }
-    
-    
-/*
- 
- EXECUTION :
- 
- Affichage du contenu des trois tableaux avant le tri
-
-      Poste     Age     Cafe
-
-   0)   P       25        3
-   1)   P       19        1
-   2)   O       27        5
-   3)   A       30        0
-   4)   P       65        3
-   5)   A       24        4
-   6)   P       59        0
-   7)   P       29        3
-
-
- Il y a 5 programmeurs
- Il y a 2 analystes
- Il y a 1 operateurs
-
- Le nombre de personnes dont
-     - L'age depasse 30 ans est de : 3
-     - La consommation de cafe est de 3 tasses ou plus par jour : 5
-
- Parmi tous les employes
-     - La consommation maximale de cafe est de : 5 tasse(s)
-     - L'age maximal est de : 65 ans
-
-
- Affichage du contenu des trois tableaux apres le tri en fonction de l'age :
-
-      Poste     Age     Cafe
-
-   0)   P       19        1
-   1)   A       24        4
-   2)   P       25        3
-   3)   O       27        5
-   4)   P       29        3
-   5)   A       30        0
-   6)   P       59        0
-   7)   P       65        3
- Program ended with exit code: 0
- 
- */
